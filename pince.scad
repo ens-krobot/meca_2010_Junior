@@ -10,7 +10,7 @@ e = 5;
 
 dd = diam_ext - diam_int;
 
-rotate([0, 0, 45]) union() {
+rotate([0, 0, 60]) union() {
     translate([-lng_tige - diam_ext/2 + dd/4, 0, -e/2])
         polyhedron([[0, 0, 0], [lng_tige, 0, 0],
                     [lng_tige + dd/2, 2*lrg_tige, 0], [0, lrg_tige, 0],
